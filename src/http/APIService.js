@@ -9,8 +9,8 @@ export class APIService {
     const url = `${API_URL}/api/skills/${param_pk}`;
     return axios.get(url);
   }
-    getSkillList() {
-    const url = `${API_URL}/api/skills`;
+  getSkillList() {
+    const url = `${API_URL}/api/skills/`;
     return axios.get(url);
   }
   addNewSkill(skill){
